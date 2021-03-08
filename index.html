@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alarm</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .aj {
+            background-color: skyblue;
+            border: 1px solid red;
+            padding: 25px 50px;
+            border-radius: 25px;
+        }
+
+        #watch {
+            padding: 0 30px;
+            text-align: center;
+        }
+
+        #btn {
+            display: block;
+            margin: 10px auto;
+        }
+
+        .heading {
+            text-align: center;
+        }
+
+        .danger {
+            border: 2px solid red;
+            border-radius: 4px;
+        }
+
+        .success {
+            border: 2px solid greenyellow;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="aj">
+            <h1 id="watch">00:00:00 PM</h1>
+            <div>
+                <h1 class="heading">Set alarm </h1>
+                <!-- <input type="text" id="hours" class="ajit" size="2" class="input" placeholder="HH">
+                <input type="text" id="min" size="2" class="input" placeholder="MM">
+                <input type="text" id="sec" size="2" class="input" placeholder="SS">
+                <input type="radio" name="a" id="option1">AM
+                <input type="radio" name="a" id="option2">PM -->
+                <select name="hours" id="hours">
+                    <option value="01" id='1'>01</option>
+                </select>
+                <select name="min" id="min">
+                    <option value="01">01</option>
+                </select>
+                <select name="sec" id="sec">
+                    <option value="01">01</option>
+                </select>
+                <select name="ap" id="ap">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div></a>
+            <button id="btn"> Submit </button>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
